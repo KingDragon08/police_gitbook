@@ -1,4 +1,4 @@
-# Camera\(Base URL:/Camera\)
+# Camera\(Base URL:Camera\)
 
 
 
