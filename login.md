@@ -16,13 +16,10 @@ params：
 
 {"code":200,"data":{"Id":1,"name":"KingDragon","sex":"M","NO":"000001","mobile":"13800000000","lastLoginTime":"1505666219993","lastLoginIP":"1.2.3.4","token":"46eb69812c6d7b41d8a5fd334f073020","status":"success"}}
 
-
-
 错误：
 
 * {"code":300,"data":{"status":"fail","error":"moblie error"}}手机号码错误
 * {"code":300,"data":{"status":"fail","error":"moblie not match password"}}密码和手机号不匹配
-* {"code": 300, "data":{"status":"fail","error":"mobile already exist"}}手机号码已经存在
 
 
 
