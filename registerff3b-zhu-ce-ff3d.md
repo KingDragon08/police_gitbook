@@ -20,8 +20,8 @@ params：
 
 错误：
 
-* {"code": 300, "data": "unknown error"}注册失败
-* {"code": 300, "data": "sex must be F or M"}性别参数错误
+* {"code": 300, "data":{"status":"fail","error":"register error"}}注册失败
+* {"code": 300, "data":{"status":"fail","error":"sex must be F or M"}}性别参数错误
 
 
 
