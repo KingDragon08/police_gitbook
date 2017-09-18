@@ -11,6 +11,7 @@ params：
 * sex=&gt;性别，F＝女，M＝男
 * NO=&gt;警员编号
 * mobile=&gt;手机号码
+* company=&gt;所属单位
 
 返回值：
 
