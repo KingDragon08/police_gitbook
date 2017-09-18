@@ -14,7 +14,7 @@ params：
 
 正确：
 
-{"code":200,"data":{"Id":1,"name":"KingDragon","sex":"M","NO":"000001","mobile":"13800000000","lastLoginTime":"1505666219993","lastLoginIP":"1.2.3.4","token":"46eb69812c6d7b41d8a5fd334f073020","status":"success"}}
+{"code":200,"data":{"Id":1,"name":"KingDragon","sex":"M","company":"test","NO":"000001","mobile":"13800000000","lastLoginTime":"1505666219993","lastLoginIP":"1.2.3.4","token":"46eb69812c6d7b41d8a5fd334f073020","status":"success"}}
 
 错误：
 
