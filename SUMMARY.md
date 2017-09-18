@@ -18,5 +18,5 @@
   * [添加兴趣点](interestpoint/tian-jia-xing-qu-dian.md)
   * [删除兴趣点](interestpoint/shan-chu-xing-qu-dian.md)
   * [获取兴趣点](interestpoint/huo-qu-xing-qu-dian.md)
-  * 更新兴趣点
+  * [更新兴趣点](interestpoint/geng-xin-xing-qu-dian.md)
 
