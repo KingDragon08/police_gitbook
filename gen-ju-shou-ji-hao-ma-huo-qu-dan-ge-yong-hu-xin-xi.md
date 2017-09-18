@@ -20,7 +20,7 @@ params：
 
 * {"code": 300, "data":{"status":"fail","error":"unkown error"}}参数错误
 * {"code":300,"data":{"status":"fail","error":"moblie not match password"}}密码和手机号不匹配
-* {"code": 300, "data":{"status":"fail","error":"params error"}}没有Id参数
+* {"code": 300, "data":{"status":"fail","error":"params error"}}没有targetMobile参数
 
 
 
