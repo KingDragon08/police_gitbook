@@ -1,29 +1,28 @@
 name：添加兴趣点
 
-url：/user/register
+url：/map/interestPoint/addPoint
 
 method：post
 
 params：
 
-* name=&gt;用户名
-* password=&gt;密码明文
-* sex=&gt;性别，F＝女，M＝男
-* NO=&gt;警员编号
 * mobile=&gt;手机号码
-* company=&gt;所属单位
+* token=&gt;token
+* name=&gt;兴趣点名称
+* longitude=&gt;兴趣点经度坐标
+* latitude=&gt;兴趣点纬度坐标
+* desc=&gt;兴趣点描述文字
 
 返回值：
 
 正确：
 
-* {"code":200,"data":{"status":"success","error":"success"}}
+* {"code": 200, "data":{"status":"success","error":"success"}}
 
 错误：
 
-* {"code": 300, "data":{"status":"fail","error":"register error"}}注册失败
-* {"code": 300, "data":{"status":"fail","error":"sex must be F or M"}}性别参数错误
-* {"code": 300, "data":{"status":"fail","error":"mobile already exist"}}手机号码已经存在
+* {"code": 300, "data":{"status":"fail","error":"unknown error"}}添加兴趣点失败
+* {"code": 300, "data":{"status":"fail","error":"mobile not match token"}}手机号码与token不匹配
 
 
 
