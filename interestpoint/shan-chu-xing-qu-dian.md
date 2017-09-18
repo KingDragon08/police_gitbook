@@ -1,4 +1,4 @@
-name：添加兴趣点
+name：删除兴趣点
 
 url：/map/interestPoint/delPoint
 
