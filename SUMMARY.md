@@ -6,6 +6,7 @@
   * [登录](login.md)
   * [使用token登录](shi-yong-token-deng-lu.md)
   * [退出登录](tui-chu-deng-lu.md)
+  * [分页获取用户信息](fen-ye-huo-qu-yong-hu-xin-xi.md)
 * [Camera](camera.md)
   * [添加摄像头](camera_add.md)
 
