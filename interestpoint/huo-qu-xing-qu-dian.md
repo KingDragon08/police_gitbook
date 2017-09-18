@@ -16,11 +16,11 @@ params：
 
 正确：
 
-* {"code": 200, "data":{"status":"success","error":"success"}}
+* {"code":200,"data":{"status":"success","data":\[{"Id":2,"name":"first","longitude":"0.0001","latitude":"123.456","desc":"description"},{"Id":1,"name":"unknown","longitude":"0","latitude":"0","desc":"0"}\]}}
 
 错误：
 
-* {"code": 300, "data":{"status":"fail","error":"unknown error"}}添加兴趣点失败
+* {"code": 300, "data":{"status":"fail","error":"unknown error"}}获取兴趣点失败
 * {"code": 300, "data":{"status":"fail","error":"mobile not match token"}}手机号码与token不匹配
 
 
