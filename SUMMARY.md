@@ -14,3 +14,6 @@
   * [添加摄像头](camera_add.md)
   * [删除摄像头](camera_del.md)
   * [修改摄像头](camera_edit.md)
+* [InterestPoint](interestpoint.md)
+  * 添加兴趣点
+
