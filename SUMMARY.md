@@ -8,4 +8,5 @@
   * [退出登录](tui-chu-deng-lu.md)
 * [Camera](camera.md)
   * [添加摄像头](camera_add.md)
-
+  * [删除摄像头](camera_del.md)
+  * [修改摄像头](camera_edit.md)
