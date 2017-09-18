@@ -15,5 +15,5 @@
   * [删除摄像头](camera_del.md)
   * [修改摄像头](camera_edit.md)
 * [InterestPoint](interestpoint.md)
-  * 添加兴趣点
+  * [添加兴趣点](interestpoint/tian-jia-xing-qu-dian.md)
 
