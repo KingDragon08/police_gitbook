@@ -8,7 +8,7 @@ params：
 
 * mobile=&gt;手机号码
 * token=&gt;登录后返回的token串
-* IP=&gt;IP地址
+* page=&gt;页数，从1开始，可不传（默认为1）
 
 返回值：
 
