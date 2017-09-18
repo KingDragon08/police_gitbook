@@ -1,6 +1,6 @@
-name：添加摄像头
+name：删除摄像头
 
-url：/camera/add
+url：/camera/del
 
 method：post
 
@@ -8,10 +8,8 @@ params：
 
 * mobile: 手机号
 * token: token
+* cam_id: 设备id
 * cam_no: 设备编号
-* cam_name: 设备名称
-* cam_loc: 设备地点
-* cam_sta: 设备状态(取值0/1/2, 默认0; 0: 不激活, 1: 激活, 2: 故障)
 
 返回值：
 

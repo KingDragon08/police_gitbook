@@ -1,6 +1,6 @@
-name：添加摄像头
+name：修改摄像头信息
 
-url：/camera/add
+url：/camera/edit
 
 method：post
 
@@ -8,6 +8,7 @@ params：
 
 * mobile: 手机号
 * token: token
+* cam_id: 设备id
 * cam_no: 设备编号
 * cam_name: 设备名称
 * cam_loc: 设备地点
