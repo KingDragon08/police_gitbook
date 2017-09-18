@@ -1,6 +1,6 @@
-name：根据Id获取单个用户信息
+name：根据手机号码获取单个用户信息
 
-url：/user/getSingleUserInfo
+url：/user/getSingleUserInfoByMobile
 
 method：post
 
@@ -8,7 +8,7 @@ params：
 
 * mobile=&gt;手机号码
 * token=&gt;登录后返回的token串
-* Id=&gt;目标用户信息的Id编号
+* targetMobile=&gt;目标用户信息的手机号码
 
 返回值：
 
