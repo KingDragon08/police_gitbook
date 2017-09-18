@@ -19,8 +19,8 @@ params：
 
 错误：
 
-* {"code":300,"data":{"status":"fail","error":"moblie error"}}手机号码错误
-* {"code":300,"data":{"status":"fail","error":"moblie not match password"}}密码和手机号不匹配
+* {"code": 300, "data":{"status":"fail","error":"unkown error"}}未知错误
+* {"code": 300, "data":{"status":"fail","error":"moblie not match token"}}token和手机号不匹配
 
 
 
