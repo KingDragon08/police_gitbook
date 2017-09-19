@@ -21,5 +21,9 @@ params：
 * {"code":300,"data":{"status":"fail","error":"unknown error"}}上传失败
 * {"code":300,"data":{"status":"fail","error":"moblie not match password"}}密码和手机号不匹配
 
+事例 ：
+
+
+
 
 
