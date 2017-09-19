@@ -7,7 +7,7 @@ method：post
 params：
 
 * mobile=&gt;手机号码
-* token=&gt;密码明文
+* token=&gt;登录时返回的token
 
 返回值：
 
