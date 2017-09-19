@@ -10,6 +10,7 @@
   * [根据Id获取单个用户信息](huo-qu-dan-ge-yong-hu-xin-xi.md)
   * [根据手机号码获取单个用户信息](gen-ju-shou-ji-hao-ma-huo-qu-dan-ge-yong-hu-xin-xi.md)
   * [根据用户名模糊搜索用户信息](gen-ju-yong-hu-ming-mo-hu-sou-suo-yong-hu-xin-xi.md)
+  * [添加App用户](tian-jia-app-yong-hu.md)
 * [Camera](camera.md)
   * [添加摄像头](camera_add.md)
   * [删除摄像头](camera_del.md)
@@ -21,4 +22,5 @@
   * [更新兴趣点](interestpoint/geng-xin-xing-qu-dian.md)
   * [搜索兴趣点](interestpoint/sou-suo-xing-qu-dian.md)
 * [Mobile](mobile.md)
+  * 登录
 
