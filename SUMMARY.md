@@ -25,4 +25,5 @@
   * [搜索兴趣点](interestpoint/sou-suo-xing-qu-dian.md)
 * [Mobile](mobile.md)
   * [登录](mobile/deng-lu.md)
+  * [使用token登录](mobile/shi-yong-token-deng-lu.md)
 
