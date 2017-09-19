@@ -19,4 +19,5 @@
   * [删除兴趣点](interestpoint/shan-chu-xing-qu-dian.md)
   * [获取兴趣点](interestpoint/huo-qu-xing-qu-dian.md)
   * [更新兴趣点](interestpoint/geng-xin-xing-qu-dian.md)
+  * [搜索兴趣点](interestpoint/sou-suo-xing-qu-dian.md)
 
