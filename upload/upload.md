@@ -23,87 +23,51 @@ params：
 
 事例 ：
 
-&lt;!DOCTYPE html&gt;
+```js
+<!DOCTYPE html>
+<html>
 
-&lt;html&gt;
+<head>
+    <title>test</title>
+</head>
 
-
-
-&lt;head&gt;
-
-    &lt;title&gt;test&lt;/title&gt;
-
-&lt;/head&gt;
-
-
-
-&lt;body&gt;
-
-    &lt;form id="uploadForm"&gt;
-
-        &lt;p&gt;指定文件名：
-
-            &lt;input type="text" name="filename" value="" /&gt;
-
-        &lt;/p&gt;
-
-        &lt;p&gt;上传文件：
-
-            &lt;input type="file" name="file" /&gt;
-
-            &lt;/ p&gt;
-
-            &lt;input type="button" value="上传" onclick="doUpload\(\)" /&gt;
-
-    &lt;/form&gt;
-
-    &lt;button onclick="go\(\)"&gt;TESTTEST&lt;/button&gt;
-
-    &lt;script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"&gt;&lt;/script&gt;
-
-    &lt;script type="text/javascript"&gt;
-
-    function go\(\) {
-
-        var formData = new FormData\($\("\#uploadForm"\)\[0\]\);
-
-        $.ajax\({
-
+<body>
+    <form id="uploadForm">
+        <p>指定文件名：
+            <input type="text" name="filename" value="" />
+        </p>
+        <p>上传文件：
+            <input type="file" name="file" />
+        </ p>
+            <input type="hidden" name="mobile" value="" />
+            <input type="hidden" name="token" value="" />
+    </form>
+    <button onclick="go()">TESTTEST</button>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript">
+    function go() {
+        var formData = new FormData($("#uploadForm")[0]);
+        $.ajax({
             url: 'http://localhost:8080/file/upload',
-
             type: 'POST',
-
             data: formData,
-
             async: false,
-
             cache: false,
-
             contentType: false,
-
             processData: false,
-
-            success: function\(data\) {
-
-                console.log\(JSON.stringify\(data\)\);
-
+            success: function(data) {
+                console.log(JSON.stringify(data));
             },
-
-            error: function\(data\) {
-
-                console.log\(data\);
-
+            error: function(data) {
+                console.log(data);
             }
-
-        }\);
-
+        });
     }
+    </script>
+</body>
 
-    &lt;/script&gt;
-
-&lt;/body&gt;
-
+</html>
+```
 
 
-&lt;/html&gt;
 
