@@ -24,5 +24,5 @@
   * [更新兴趣点](interestpoint/geng-xin-xing-qu-dian.md)
   * [搜索兴趣点](interestpoint/sou-suo-xing-qu-dian.md)
 * [Mobile](mobile.md)
-  * 登录
+  * [登录](mobile/deng-lu.md)
 
