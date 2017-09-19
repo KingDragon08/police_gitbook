@@ -12,6 +12,7 @@
   * [根据用户名模糊搜索用户信息](gen-ju-yong-hu-ming-mo-hu-sou-suo-yong-hu-xin-xi.md)
   * [添加App用户](tian-jia-app-yong-hu.md)
   * [删除App用户](shan-chu-app-yong-hu.md)
+  * [分页获取App用户信息](fen-ye-huo-qu-app-yong-hu-xin-xi.md)
 * [Camera](camera.md)
   * [添加摄像头](camera_add.md)
   * [删除摄像头](camera_del.md)
