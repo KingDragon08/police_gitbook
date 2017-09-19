@@ -22,5 +22,9 @@ params：
 * {"code": 300, "data":{"status":"fail","error":"unkown error"}}未知错误
 * {"code": 300, "data":{"status":"fail","error":"moblie not match token"}}token和手机号不匹配
 
+备注：
+
+使用token登录后token会更新，需要更新本地缓存的token
+
 
 
