@@ -14,7 +14,7 @@ params：
 
 正确：
 
-
+{ "code": 200, "data": { "status": "success", "error": "upload success", "url": url } }
 
 错误：
 
