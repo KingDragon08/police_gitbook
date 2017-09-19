@@ -22,5 +22,7 @@ params：
 * { "code": 300, "data": { "status": "fail", "error": "unkown error" } }删除失败
 * { "code": 300, "data": { "status": "fail", "error": "mobile not match token" } }手机号码和token不匹配
 
+备注 ：
 
+删除时无论对应Id的App用户是否存在，只要参数正确，都会返回成功
 
