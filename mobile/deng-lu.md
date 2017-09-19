@@ -14,7 +14,7 @@ params：
 
 正确：
 
-{"code":200,"data":{"Id":1,"name":"KingDragon","sex":"M","company":"test","NO":"000001","mobile":"13800000000","lastLoginTime":"1505666219993","lastLoginIP":"1.2.3.4","token":"46eb69812c6d7b41d8a5fd334f073020","status":"success"}}
+{"code":200,"data":{"Id":8,"name":"first1","sex":"M","company":"westPolice","NO":"000123","mobile":"13810332932","lastLoginTime":"1505800911215","lastLoginIP":null,"avatar":"http://www.baidu.com","token":"447b2c368f0a4935ce458fcf72dc3fad","status":"success"}}
 
 错误：
 
