@@ -26,4 +26,5 @@
 * [Mobile](mobile.md)
   * [登录](mobile/deng-lu.md)
   * [使用token登录](mobile/shi-yong-token-deng-lu.md)
+  * [退出登录](mobile/tui-chu-deng-lu.md)
 

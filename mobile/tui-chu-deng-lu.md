@@ -1,13 +1,13 @@
 name：退出登录
 
-url：/user/logout
+url：/mobile/logout
 
 method：post
 
 params：
 
 * mobile=&gt;手机号码
-* token=&gt;token
+* token=&gt;密码明文
 
 返回值：
 
