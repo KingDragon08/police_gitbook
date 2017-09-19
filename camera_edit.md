@@ -4,15 +4,16 @@ url：/camera/edit
 
 method：post
 
-1. 修改摄像头状态
-
 params：
+
+1. 修改摄像头状态
 
 * mobile: 手机号[必须]
 * token: toke[必须]
 * cam_id: 设备id[必须]
 * editType: status[必须]
 * cam_sta: 设备状态(取值0/1/2, 默认0; 0: 不激活, 1: 激活, 2: 故障)
+
 
 2. 修改摄像头信息
 
