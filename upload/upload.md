@@ -27,11 +27,15 @@ params：
 
 &lt;html&gt;
 
+
+
 &lt;head&gt;
 
     &lt;title&gt;test&lt;/title&gt;
 
 &lt;/head&gt;
+
+
 
 &lt;body&gt;
 
@@ -47,7 +51,9 @@ params：
 
             &lt;input type="file" name="file" /&gt;
 
-         &lt;/ p&gt;
+            &lt;/ p&gt;
+
+            &lt;input type="button" value="上传" onclick="doUpload\(\)" /&gt;
 
     &lt;/form&gt;
 
@@ -63,7 +69,7 @@ params：
 
         $.ajax\({
 
-            url: 'http://www.xiaofen809.com:8080/file/upload',
+            url: 'http://localhost:8080/file/upload',
 
             type: 'POST',
 
