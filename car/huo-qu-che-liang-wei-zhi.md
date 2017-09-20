@@ -14,7 +14,7 @@ params：
 
 正确：
 
-* {"code":200,"data":{"status":"success","data":\[{"Id":1,"NO":"京A00001","type":1}\]}}
+* {"code":200,"data":{"status":"success","data":{"longitude":100.52367032386921,"latitude":100.05210268197992}}}
 
 错误：
 
