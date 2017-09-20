@@ -25,9 +25,10 @@ params：
 6. cam\_no: 设备编号\[必须, 且唯一\]
 7. cam\_name: 设备名称
 8. cam\_desc: 设备描述
-9. cam\_loc\_lon: 设备地点经度\[必须\]
-10. cam\_loc\_lan: 设备地点维度\[必须\]
-11. cam\_sta: 设备状态\(取值0/1/2/3, 默认0; 0: 不激活, 1: 激活, 2: 故障\)
+9. cam\_addr: 设备详细地址
+10. cam\_loc\_lon: 设备地点经度\[必须\]
+11. cam\_loc\_lan: 设备地点维度\[必须\]
+12. cam\_sta: 设备状态\(取值0/1/2/3, 默认0; 0: 不激活, 1: 激活, 2: 故障\)
 
 > editType: 修改信息\[必须\] \(取值status/all; status: 修改状态, all: 修改全部信息\)
 
@@ -48,6 +49,3 @@ params：
 * {"code": 404, "data":{"status":"fail","error":"camera not exist"}}\[参数错误\]设备不存在
 * {"code": 301, "data":{"status":"fail","error":"user not login"}}\[权限问题\]用户未登录
 * {"code": 500, "data":{"status":"fail","error":e.message}}\[系统错误\]未知错误
-
-
-
