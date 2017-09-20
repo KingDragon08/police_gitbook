@@ -18,9 +18,15 @@ params：
 
 错误：
 
-* { "code": 300, "data": { "status": "fail", "error": "unkown error" } }删除失败
+* { "code": 300, "data": { "status": "fail", "error": "unkown error" } }获取失败
 * {"code":300,"data":{"status":"fail","error":"params error"}}没有传入车辆Id号
 * { "code": 300, "data": { "status": "fail", "error": "mobile not match token" } }手机号码和token不匹配
 
+备注：
 
+返回值中type值的含义：
+
+1：巡逻车
+
+2：环卫车
 
