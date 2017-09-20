@@ -33,4 +33,5 @@
   * [上传单个文件](upload/upload.md)
 * [Car](car.md)
   * [添加车辆](car/tian-jia-che-liang.md)
+  * [删除车辆](car/shan-chu-che-liang.md)
 
