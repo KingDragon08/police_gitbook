@@ -34,4 +34,5 @@
 * [Car](car.md)
   * [添加车辆](car/tian-jia-che-liang.md)
   * [删除车辆](car/shan-chu-che-liang.md)
+  * [获取车辆信息](car/huo-qu-che-liang-xin-xi.md)
 
