@@ -1,4 +1,4 @@
-name：获取单个车辆信息
+name：获取单个车辆基础信息
 
 url：/car/getSingleCarInfo
 
