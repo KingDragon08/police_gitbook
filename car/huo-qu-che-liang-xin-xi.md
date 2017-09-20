@@ -1,4 +1,4 @@
-name：获取车辆信息
+name：获取车辆基础信息
 
 url：/car/getCar
 
