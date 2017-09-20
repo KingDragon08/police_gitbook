@@ -16,12 +16,12 @@ params：
 
 正确：
 
-* {"code":200,"data":{"status":"success","error":"success"}}
+* {"code":200,"data":{"status":"success","data":\[{"Id":1,"NO":"京A00001"}\]}}
 
 错误：
 
-* { "code": 300, "data": { "status": "fail", "error": "unkown error" } }删除失败
-* {"code":300,"data":{"status":"fail","error":"params error"}}没有传入车辆Id号
+* { "code": 300, "data": { "status": "fail", "error": "unkown error" } }获取失败
+
 * { "code": 300, "data": { "status": "fail", "error": "mobile not match token" } }手机号码和token不匹配
 
 
