@@ -14,7 +14,7 @@ params：
 
 正确：
 
-{"code":200,"data":{"status":"success","data":\[{"Id":1,"NO":"京A00001","type":1}\]}}
+* {"code":200,"data":{"status":"success","data":\[{"Id":1,"NO":"京A00001","type":1}\]}}
 
 错误：
 
