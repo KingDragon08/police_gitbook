@@ -18,6 +18,7 @@
   * [删除摄像头](camera_del.md)
   * [修改摄像头](camera_edit.md)
   * [获取单个摄像头信息](/camera_info.md)
+  * [获取摄像头列表](/camera_list.md)
 * [InterestPoint](interestpoint.md)
   * [添加兴趣点](interestpoint/tian-jia-xing-qu-dian.md)
   * [删除兴趣点](interestpoint/shan-chu-xing-qu-dian.md)
