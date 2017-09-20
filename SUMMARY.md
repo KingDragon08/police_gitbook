@@ -36,4 +36,5 @@
   * [删除车辆](car/shan-chu-che-liang.md)
   * [获取车辆信息](car/huo-qu-che-liang-xin-xi.md)
   * [获取单个车辆信息](car/huo-qu-dan-ge-che-liang-xin-xi.md)
+  * [搜索车辆](car/sou-suo-che-liang.md)
 
