@@ -11,6 +11,7 @@ params：
 * cam_no: 设备编号[必须, 且唯一]
 * cam_name: 设备名称
 * cam_desc: 设备描述
+* cam_addr: 设备详细地址
 * cam_loc_lon: 设备地点经度[必须]
 * cam_loc_lan: 设备地点维度[必须]
 * cam_sta: 设备状态(取值0/1/2/3, 默认0; 0: 不激活, 1: 激活, 2: 故障)
