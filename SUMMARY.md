@@ -19,6 +19,8 @@
   * [修改摄像头](camera_edit.md)
   * [获取单个摄像头信息](/camera_info.md)
   * [获取摄像头列表](/camera_list.md)
+  * [根据名称或地址关键字模糊查找摄像头](camera_search.md)
+  * [反馈摄像头周边信息](camera_feedback.md)
 * [InterestPoint](interestpoint.md)
   * [添加兴趣点](interestpoint/tian-jia-xing-qu-dian.md)
   * [删除兴趣点](interestpoint/shan-chu-xing-qu-dian.md)
@@ -31,6 +33,3 @@
   * [退出登录](mobile/tui-chu-deng-lu.md)
 * [Upload](upload.md)
   * [上传单个文件](upload/upload.md)
-
-
-
