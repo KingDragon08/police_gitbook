@@ -1,4 +1,4 @@
-# User\(Base URL:/mobile\)
+# Mobile\(Base URL:/mobile\)
 
 app相关api
 
