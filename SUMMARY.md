@@ -31,6 +31,7 @@
   * [登录](mobile/deng-lu.md)
   * [使用token登录](mobile/shi-yong-token-deng-lu.md)
   * [退出登录](mobile/tui-chu-deng-lu.md)
+  * [反馈摄像头周边信息](mobile/fan-kui-she-xiang-tou-zhou-bian-xin-xi.md)
 * [Upload](upload.md)
   * [上传单个文件](upload/upload.md)
 * [Car](car.md)
@@ -41,3 +42,4 @@
   * [搜索车辆](car/sou-suo-che-liang.md)
   * [获取车辆位置](car/huo-qu-che-liang-wei-zhi.md)
   * [获取车辆轨迹](car/huo-qu-che-liang-gui-ji.md)
+
