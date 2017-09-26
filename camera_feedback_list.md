@@ -21,13 +21,10 @@ params：
 
 正确：
 
-* {"code":200,"data":{"status":"success","error":"success","fb_id":4}}
+{"code":200,"data":{"status":"success","error":"success","rows":[{"fb_id":1,"cam_id":77,"content":"feedback","addtime":"1505896361748","user_id":10,"fb_loc_lon":"0","fb_loc_lan":"0","fb_addr":""},{"fb_id":2,"cam_id":77,"content":"feedback","addtime":"1505896458105","user_id":10,"fb_loc_lon":"0","fb_loc_lan":"0","fb_addr":""},{"fb_id":3,"cam_id":77,"content":"feedback","addtime":"1505896482898","user_id":10,"fb_loc_lon":"0","fb_loc_lan":"0","fb_addr":""},{"fb_id":4,"cam_id":77,"content":"feedback","addtime":"1505896514005","user_id":10,"fb_loc_lon":"0","fb_loc_lan":"0","fb_addr":""},{"fb_id":5,"cam_id":77,"content":"feedback","addtime":"1505896730864","user_id":10,"fb_loc_lon":"0","fb_loc_lan":"0","fb_addr":""}],"total":5,"page":1,"pageSize":20}}
 
 错误：
 
-* {"code": 401, "data":{"status":"fail","error":"cam_id is null"}} [参数空]cam_id为空
-* {"code": 401, "data":{"status":"fail","error":"content is null"}}[参数空]content
-* {"code": 404, "data":{"status":"fail","error":"camera not exist"}}[参数问题]设备不存在
 * {"code": 301, "data":{"status":"fail","error":"user not login"}}[权限问题]用户未登录
 * {"code": 501, "data":{"status":"fail","error":err.message}}[系统错误]数据库查询错误
 * {"code": 500, "data":{"status":"fail","error":e.message}}[系统错误]未知错误
