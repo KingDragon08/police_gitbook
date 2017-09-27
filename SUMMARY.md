@@ -13,6 +13,7 @@
   * [添加App用户](tian-jia-app-yong-hu.md)
   * [删除App用户](shan-chu-app-yong-hu.md)
   * [分页获取App用户信息](fen-ye-huo-qu-app-yong-hu-xin-xi.md)
+  * [判断用户是否拥有指定权限](checkUserPermission.md)
 * [Camera](camera.md)
   * [添加摄像头](camera_add.md)
   * [删除摄像头](camera_del.md)
