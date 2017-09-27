@@ -35,6 +35,8 @@
   * [反馈摄像头周边信息](mobile/fan-kui-she-xiang-tou-zhou-bian-xin-xi.md)
 * [Upload](upload.md)
   * [上传单个文件](upload/upload.md)
+* [Address](address.md)
+  * [根据关键字模糊查找地点](address_fuzzy_search.md)
 * [Car](car.md)
   * [添加车辆](car/tian-jia-che-liang.md)
   * [删除车辆](car/shan-chu-che-liang.md)
