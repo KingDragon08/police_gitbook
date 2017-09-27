@@ -14,8 +14,8 @@ params：
 
 正确：
 
-{"code":200,"data":{"start":"success","data":1}} 拥有权限
-{"code":200,"data":{"start":"success","data":0}} 不拥有权限
+* {"code":200,"data":{"start":"success","data":1}} 拥有权限
+* {"code":200,"data":{"start":"success","data":0}} 不拥有权限
 
 错误：
 
