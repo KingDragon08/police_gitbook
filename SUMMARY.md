@@ -23,6 +23,7 @@
   * [根据名称或地址关键字模糊查找摄像头](camera_search.md)
   * [反馈摄像头周边信息](camera_feedback.md)
   * [手机用户获取自己反馈摄像头信息](camera_feedback_list.md)
+  * [pc端获取摄像头反馈信息](camera_feedback_list.md)
 * [InterestPoint](interestpoint.md)
   * [添加兴趣点](interestpoint/tian-jia-xing-qu-dian.md)
   * [删除兴趣点](interestpoint/shan-chu-xing-qu-dian.md)

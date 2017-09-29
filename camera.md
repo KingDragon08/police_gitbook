@@ -11,3 +11,4 @@
     * [根据名称或地址关键字模糊查找摄像头](camera_search.md)
     * [反馈摄像头周边信息](camera_feedback.md)
     * [手机用户获取自己反馈摄像头信息](camera_feedback_list.md)
+    * [pc端获取摄像头反馈信息](camera_feedback_list.md)
