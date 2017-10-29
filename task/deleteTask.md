@@ -1,6 +1,6 @@
-name：发布任务
+name：删除任务
 
-url：/task/publishTask
+url：/task/deleteTask
 
 method：post
 
@@ -8,26 +8,18 @@ params：
 
 * mobile: 手机号[必须]
 * token: token[必须]
-* cameraName: 摄像头名称
-* cameraLocation: 摄像头位置信息
-* taskDescription：任务描述信息
-* userId：任务对象的Id
-* cameraId：任务对应的摄像头Id
+* taskId: 任务Id
 
 ajax：
 
 ```
 var settings = {
-  "url": "http://127.0.0.1:8080/task/publishTask",
+  "url": "http://127.0.0.1:8080/task/deleteTask",
   "method": "POST",
   "data":{
     mobile:"13810332931",
     token:"6b71a6f40f6df25fcb1dbd1456eb1d5b",
-    cameraName:"cameraName",
-    cameraLocation:"cameraLocation",
-    taskDescription:"taskDescription",
-    userId:"1",
-    cameraId:"1",
+    taskId:1
   }
 }
 $.ajax(settings).done(function (response) {
@@ -39,12 +31,12 @@ $.ajax(settings).done(function (response) {
 
 正确：
 
-res.json({ "code": 200, "data": { "status": "success", "error": "success" } })
+res.json({ "code": 200, "data": { "status": "success", "error": "success" }}); 
+
 
 错误：
 
 * res.json({ "code": 302, "data": { "status": "fail", "error": "param error1" } }); 参数不全
 * res.json({ "code": 302, "data": { "status": "fail", "error": "param error1" } }); 参数不全
 * res.json({ "code": 300, "data": { "status": "fail", "error": "mobile not match token" } }); 手机号和token不匹配
-* res.json({ "code": 300, "data": { "status": "fail", "error": "cameraId exist in tasks" } }); 摄像头已经发布过任务了 
 
