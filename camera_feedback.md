@@ -33,5 +33,6 @@ params：
 * {"code": 401, "data":{"status":"fail","error":"content is null"}}[参数空]content
 * {"code": 404, "data":{"status":"fail","error":"camera not exist"}}[参数问题]设备不存在
 * {"code": 301, "data":{"status":"fail","error":"user not login"}}[权限问题]用户未登录
+* {"code": 405, "data":{"status":"fail","error":"camera without task}}[参数问题]摄像头未发布反馈任务
 * {"code": 501, "data":{"status":"fail","error":err.message}}[系统错误]数据库查询错误
 * {"code": 500, "data":{"status":"fail","error":e.message}}[系统错误]未知错误

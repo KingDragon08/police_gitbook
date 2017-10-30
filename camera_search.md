@@ -8,7 +8,10 @@ params：
 
 * mobile: 手机号[必须]
 * token: toke[必须]
-* info: 查找输入信息[为空获取所有设备]
+* loc_lon: 地点经度[必须]
+* loc_lan: 地点维度[必须]
+* radius: 范围半径[默认20]
+* size: 获取数量[默认20]
 
 返回值：
 

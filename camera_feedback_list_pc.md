@@ -27,5 +27,6 @@ params：
 错误：
 
 * {"code": 301, "data":{"status":"fail","error":"user not login"}}[权限问题]用户未登录
+* {"code": 405, "data":{"status":"fail","error":"cameara not been checked"}}[参数问题]摄像头反馈信息未被审核
 * {"code": 501, "data":{"status":"fail","error":err.message}}[系统错误]数据库查询错误
 * {"code": 500, "data":{"status":"fail","error":e.message}}[系统错误]未知错误
