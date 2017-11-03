@@ -37,6 +37,6 @@ res.json({ "code": 200, "data": { "status": "success", "error": "success" }});
 错误：
 
 * res.json({ "code": 302, "data": { "status": "fail", "error": "param error1" } }); 参数不全
-* res.json({ "code": 302, "data": { "status": "fail", "error": "param error1" } }); 参数不全
+* res.json({ "code": 302, "data": { "status": "fail", "error": "param error2" } }); 参数不全
 * res.json({ "code": 300, "data": { "status": "fail", "error": "mobile not match token" } }); 手机号和token不匹配
 
