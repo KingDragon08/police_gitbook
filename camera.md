@@ -12,3 +12,5 @@
     * [反馈摄像头周边信息](camera_feedback.md)
     * [手机用户获取自己反馈摄像头信息](camera_feedback_list.md)
     * [pc端获取摄像头反馈信息](camera_feedback_list_pc.md)
+    * [pc端指定属性获取摄像头列表](camera_list_attr.md)
+    * [pc端根据类型获取摄像头列表](camera_list_type.md)
