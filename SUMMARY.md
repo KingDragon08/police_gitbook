@@ -64,4 +64,6 @@
   * [删除任务](task/deleteTask.md)
   * [接受任务](task/acceptTask.md)
   * [ajax汇总](task/ajax.md)
+* [Role](role.md)
+  * [添加角色](role/role_add.md)
   
