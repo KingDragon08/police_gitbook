@@ -44,3 +44,8 @@ res.json({ "code": 200, "data": { "status": "success", "error": "success" } });
 * res.json({ "code": 302, "data": { "status": "fail", "error": "param error1" } }); 参数不全
 * res.json({ "code": 300, "data": { "status": "fail", "error": "mobile not match token" } }); 手机号和token不匹配
 
+备注：
+
+审核时对应的任务可能是采集新摄像头类型的任务，也有可能是对已有摄像头的信息采集
+当任务是采集新摄像头时将会创建新的摄像头并添加到摄像头图层上，对已有摄像头信息采集不会增加摄像头
+
