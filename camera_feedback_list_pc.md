@@ -1,4 +1,4 @@
-name：pc端获取摄像头反馈信息
+name：pc端根据摄像头Id获取摄像头反馈信息
 
 url：/camera/pccamfblist
 
@@ -9,20 +9,29 @@ params：
 * mobile: 手机号[必须]
 * token: toke[必须]
 * camId: 摄像头id[必须]
-* page: 页数[默认为-1：获取全部设备]
-* pageSize: 每页数量[默认20]
 
-示例：
-
+ajax:
 ```
-{"mobile":"12345678901", "token":"0a5f4ed005cd36223977e51742598a8c", "camId":77, "page":1}
+var settings = {
+  "url": "http://127.0.0.1:8080/camera/pccamfblist",
+  "method": "POST",
+  "data":{
+    mobile:"13810332931",//手机号码
+    token:"6b71a6f40f6df25fcb1dbd1456eb1d5b",//token
+    camId: 10737
+  }
+}
+$.ajax(settings).done(function (response) {
+  console.log(JSON.stringify(response));
+});
 ```
 
 返回值：
 
 正确：
-
-{"code":200,"data":{"status":"success","error":"success","rows":[{"fb_id":1,"cam_id":77,"content":"feedback","addtime":"1505896361748","user_id":10,"fb_loc_lon":"0","fb_loc_lan":"0","fb_addr":"","pics":[]},{"fb_id":2,"cam_id":77,"content":"feedback","addtime":"1505896458105","user_id":10,"fb_loc_lon":"0","fb_loc_lan":"0","fb_addr":"","pics":[]},{"fb_id":3,"cam_id":77,"content":"feedback","addtime":"1505896482898","user_id":10,"fb_loc_lon":"0","fb_loc_lan":"0","fb_addr":"","pics":[]},{"fb_id":4,"cam_id":77,"content":"feedback","addtime":"1505896514005","user_id":10,"fb_loc_lon":"0","fb_loc_lan":"0","fb_addr":"","pics":[]},{"fb_id":5,"cam_id":77,"content":"feedback","addtime":"1505896730864","user_id":10,"fb_loc_lon":"0","fb_loc_lan":"0","fb_addr":"","pics":[{"pic_id":1,"fb_id":5,"pic":"link1","addtime":"1505896730864"},{"pic_id":2,"fb_id":5,"pic":"link2","addtime":"1505896730864"}]}],"total":5,"page":1,"pageSize":20}}
+```
+{"code":200,"status":"success","data":[{"Id":5,"cameraName":"query.cameraName","cameraLocation":"cameraLocation","taskDescription":"taskDescription","userId":1,"taskNO":"1510062011426","taskStatus":2,"cameraId":10737,"rejectInfo":null,"cameraLon":"cameraLon","cameraLa":"cameraLa","addtime":"1510062011426","cameraType":1,"taskFeedBacks":[{"Id":1,"taskId":5,"content":"query.content","addtime":"1510062628616","cameraLon":"query.cameraLon","cameraLa":"query.cameraLa","camera_no":null,"cameraExtra":null,"pics":[{"Id":1,"taskFeedBackId":1,"url":"url1","addtime":"1510062628616"},{"Id":2,"taskFeedBackId":1,"url":"url2","addtime":"1510062628616"},{"Id":3,"taskFeedBackId":1,"url":"url3","addtime":"1510062628616"},{"Id":8,"taskFeedBackId":1,"url":"http://www.xiaofen809.com:8080/upload/1510226765020.jpg","addtime":"1510226765145"}]},{"Id":6,"taskId":5,"content":"query.content","addtime":"1510240477590","cameraLon":"query.cameraLon","cameraLa":"query.cameraLa","camera_no":"query.cameraNo","cameraExtra":"{\"attr_new_name\":\"attr_new_name_value\"}","pics":[{"Id":9,"taskFeedBackId":6,"url":"url1","addtime":"1510240477590"},{"Id":10,"taskFeedBackId":6,"url":"url2","addtime":"1510240477590"},{"Id":11,"taskFeedBackId":6,"url":"url3","addtime":"1510240477590"}]},{"Id":7,"taskId":5,"content":"query.content","addtime":"1510240693451","cameraLon":"query.cameraLon","cameraLa":"query.cameraLa","camera_no":"query.cameraNo","cameraExtra":"{\"attr_new_name\":\"attr_new_name_value\"}","pics":[{"Id":12,"taskFeedBackId":7,"url":"url1","addtime":"1510240693451"},{"Id":13,"taskFeedBackId":7,"url":"url2","addtime":"1510240693451"},{"Id":14,"taskFeedBackId":7,"url":"url3","addtime":"1510240693451"}]},{"Id":8,"taskId":5,"content":"query.content","addtime":"1510241887990","cameraLon":"query.cameraLon","cameraLa":"query.cameraLa","camera_no":"query.cameraNo","cameraExtra":"{\"attr_new_name\":\"attr_new_name_value\"}","pics":[{"Id":15,"taskFeedBackId":8,"url":"url1","addtime":"1510241887990"},{"Id":16,"taskFeedBackId":8,"url":"url2","addtime":"1510241887990"},{"Id":17,"taskFeedBackId":8,"url":"url3","addtime":"1510241887990"}]}]},{"Id":9,"cameraName":"query.cameraName","cameraLocation":"cameraLocation","taskDescription":"taskDescription","userId":1,"taskNO":"1510241863872","taskStatus":3,"cameraId":10737,"rejectInfo":null,"cameraLon":"cameraLon","cameraLa":"cameraLa","addtime":"1510241863872","cameraType":1,"taskFeedBacks":[{"Id":9,"taskId":9,"content":"9query.content","addtime":"1510242034337","cameraLon":"9query.cameraLon","cameraLa":"9query.cameraLa","camera_no":"9query.cameraNo","cameraExtra":"{\"attr_new_name\":\"9attr_new_name_value\"}","pics":[{"Id":18,"taskFeedBackId":9,"url":"url91","addtime":"1510242034337"},{"Id":19,"taskFeedBackId":9,"url":"url92","addtime":"1510242034337"},{"Id":20,"taskFeedBackId":9,"url":"url93","addtime":"1510242034337"}]}]}]}
+```
 
 错误：
 

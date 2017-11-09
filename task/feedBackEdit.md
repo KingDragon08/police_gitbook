@@ -1,6 +1,6 @@
-name：反馈任务信息
+name：更改反馈任务信息
 
-url：/task/taskFeedBack
+url：/task/taskFeedBackEdit
 
 method：post
 
@@ -12,23 +12,24 @@ ajax：
 
 ```
 //注意：pics必须是数组的json串
-var pics=['url1','url2','url3'];
+var pics=['edited_url1','edited_url2','edited_url3'];
 pics = JSON.stringify(pics);
 //注意： cameraExtra必须是数组的JSON串,且数组元素名字与摄像头自定义属性一致
-var cameraExtra={"attr_new_name":"attr_new_name_value"}
+var cameraExtra={"attr_new_name":"edited_attr_new_name_value"}
 cameraExtra = JSON.stringify(cameraExtra);
 
 var settings = {
-  "url": "http://127.0.0.1:8080/task/taskFeedBack",
+  "url": "http://127.0.0.1:8080/task/taskFeedBackEdit",
   "method": "POST",
   "data":{
     mobile:"13810332931",//手机号码
     token:"3d9db3d7a0c3c4ef547422817d396a44",//token
     taskId:5,//任务的Id号
-    content:"query.content",//反馈信息的文字内容
-    cameraLon:"query.cameraLon",//反馈地点的经度
-    cameraLa:"query.cameraLa",//反馈地点的纬度
-    cameraNo:"query.cameraNo",//摄像头编号
+    taskFeedBackId:8,//任务的反馈Id号
+    content:"edited_query.content",//反馈信息的文字内容
+    cameraLon:"edited_query.cameraLon",//反馈地点的经度
+    cameraLa:"edited_query.cameraLa",//反馈地点的纬度
+    cameraNo:"edited_query.cameraNo",//摄像头编号
     cameraExtra:cameraExtra,//摄像头编号
     pics:pics//图片数组JSON字符串
   }

@@ -6,31 +6,45 @@ method：post
 
 params：
 
-1. 修改摄像头状态
+params：
 
-2. mobile: 手机号\[必须\]
+* mobile: 手机号[必须]
+* token: toke[必须]
+* cam_no: 设备编号[必须]
+* cam_name: 设备名称
+* cam_desc: 设备描述
+* cam_addr: 设备详细地址
+* cam_loc_lon: 设备地点经度[必须]
+* cam_loc_lan: 设备地点维度[必须]
+* cam_sta: 设备状态(取值0/1/2/3, 默认0; 0: 不激活, 1: 激活, 2: 故障)
+* cam_extra: 用户自定义属性JSON字符串
 
-3. token: toke\[必须\]
-4. cam\_id: 设备id\[必须\]
-5. editType: status\[必须\]
-6. cam\_sta: 设备状态\(取值0/1/2, 默认0; 0: 不激活, 1: 激活, 2: 故障\)
+ajax：
 
-1. 修改摄像头信息
-
-2. mobile: 手机号\[必须\]
-
-3. token: toke\[必须\]
-4. cam\_id: 设备id\[必须\]
-5. editType: all\[必须\]
-6. cam\_no: 设备编号\[必须, 且唯一\]
-7. cam\_name: 设备名称
-8. cam\_desc: 设备描述
-9. cam\_addr: 设备详细地址
-10. cam\_loc\_lon: 设备地点经度\[必须\]
-11. cam\_loc\_lan: 设备地点维度\[必须\]
-12. cam\_sta: 设备状态\(取值0/1/2/3, 默认0; 0: 不激活, 1: 激活, 2: 故障\)
-
-> editType: 修改信息\[必须\] \(取值status/all; status: 修改状态, all: 修改全部信息\)
+```
+//注意：cam_extra必须是数组的json串
+var cam_extra={"attr_new_name":"attr_new_name_value"}
+cam_extra = JSON.stringify(cam_extra);
+var settings = {
+  "url": "http://127.0.0.1:8080/camera/edit",
+  "method": "POST",
+  "data":{
+    mobile:"13810332931",//手机号码
+    token:"6b71a6f40f6df25fcb1dbd1456eb1d5b",//token
+    cam_id:10737,//摄像头Id［必须］
+    cam_no: "设备编号[必须]",
+	cam_name: "设备名称",
+	cam_desc: "设备描述",
+	cam_addr: "设备详细地址",
+	cam_loc_lon: "设备地点经度[必须]",
+	cam_loc_lan: "设备地点维度[必须]",
+	cam_sta: 0,//摄像头类型 
+	cam_extra: cam_extra//用户自定义属性
+  }
+}
+$.ajax(settings).done(function (response) {
+  console.log(JSON.stringify(response));
+});
 
 返回值：
 

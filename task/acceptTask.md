@@ -1,4 +1,4 @@
-name：删除任务
+name：接受任务
 
 url：/task/acceptTaskStatus_App
 

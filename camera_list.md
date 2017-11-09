@@ -7,7 +7,7 @@ method：post
 params：
 
 * mobile: 手机号
-* token: toke
+* token: token
 * page: 页数[默认为-1：获取全部设备]
 * pageSize: 每页数量[默认20]
 
