@@ -20,8 +20,9 @@ var settings = {
   "data":{
     mobile:"13810332931",
     token:"6b71a6f40f6df25fcb1dbd1456eb1d5b",
-    attr_name:"attrName",
-    attr_desc:"attr_description"
+    attr_name:"attrName",//字段名
+    attr_desc:"attr_description",//字段描述信息
+    attr_comment:"attr_comment"//字段备注信息
   }
 }
 $.ajax(settings).done(function (response) {

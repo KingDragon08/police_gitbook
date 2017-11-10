@@ -22,8 +22,9 @@ var settings = {
     mobile:"13810332931",
     token:"6b71a6f40f6df25fcb1dbd1456eb1d5b",
     attrId:13,
-    attrNewName:"attr_new_name",
-    attrNewDesc:"attr_new_description"
+    attrNewName:"attr_new_name",//字段的新名字
+    attrNewDesc:"attr_new_description",//字段的新描述信息
+    attrNewComment:"attrNewComment"//字段的新备注信息
   }
 }
 $.ajax(settings).done(function (response) {
