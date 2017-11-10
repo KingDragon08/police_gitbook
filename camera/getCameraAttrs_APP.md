@@ -1,6 +1,6 @@
-name：编辑摄像头属性
+name：获取摄像头所有属性-手机用
 
-url：/camera/editCameraAttr
+url：/camera/getCameraAttrs_APP
 
 method：post
 
@@ -8,24 +8,18 @@ params：
 
 * mobile: 手机号
 * token: token
-* attrId:属性Id［必须大于12，12以内的属性不允许编辑］
-* attrNewName:属性新名字
-* attrNewDesc:属性新描述信息
-* attrNewComment:字段的新备注信息
+* type 1=>获取用户自定义属性;-1=>获取所有属性;默认－1
 
 ajax：
 
 ```
 var settings = {
-  "url": "http://127.0.0.1:8080/camera/editCameraAttr",
+  "url": "http://127.0.0.1:8080/camera/getCameraAttrs_APP",
   "method": "POST",
   "data":{
     mobile:"13810332931",
-    token:"6b71a6f40f6df25fcb1dbd1456eb1d5b",
-    attrId:13,
-    attrNewName:"attr_new_name",//字段的新名字
-    attrNewDesc:"attr_new_description",//字段的新描述信息
-    attrNewComment:"attrNewComment"//字段的新备注信息
+    token:"3d9db3d7a0c3c4ef547422817d396a44",
+    type:-1
   }
 }
 $.ajax(settings).done(function (response) {

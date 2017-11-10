@@ -29,6 +29,7 @@
   * [多边形框选摄像头](cameraSelectPolygon.md)
   * [直线附近摄像头](cameraSelectLine.md)
   * [获取摄像头属性](camera/getCameraAttrs.md)
+  * [获取摄像头属性－APP](camera/getCameraAttrs_APP.md)
   * [编辑摄像头属性](camera/editCameraAttr.md)
   * [添加摄像头属性](camera/addCameraAttr.md)
 * [InterestPoint](interestpoint.md)
