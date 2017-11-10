@@ -1,6 +1,6 @@
 name：反馈任务信息
 
-url：/task/taskFeedBack
+url：/task/feedBackWithoutTask
 
 method：post
 
@@ -19,15 +19,18 @@ var cameraExtra={"attr_new_name":"attr_new_name_value"}
 cameraExtra = JSON.stringify(cameraExtra);
 
 var settings = {
-  "url": "http://127.0.0.1:8080/task/taskFeedBack",
+  "url": "http://127.0.0.1:8080/task/feedBackWithoutTask",
   "method": "POST",
   "data":{
     mobile:"13810332931",//手机号码
     token:"3d9db3d7a0c3c4ef547422817d396a44",//token
-    taskId:5,//任务的Id号
+    cameraName:"query.cameraName",//摄像头名字
+    cameraLocation:"cameraLocation",//摄像头位置文字描述信息
+    cameraLon:"cameraLon",//经度
+    cameraLa:"cameraLa",//纬度
+    cameraType:1,//摄像头的类型，暂定0=》民用，2=》警用
+    userId:1,//派发给的人的Id
     content:"query.content",//反馈信息的文字内容
-    cameraLon:"query.cameraLon",//反馈地点的经度
-    cameraLa:"query.cameraLa",//反馈地点的纬度
     cameraNo:"query.cameraNo",//摄像头编号
     cameraExtra:cameraExtra,//摄像头自定义属性
     pics:pics//图片数组JSON字符串
