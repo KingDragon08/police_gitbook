@@ -21,7 +21,7 @@ ajax：
 
 ```
 //注意：cam_extra必须是数组的json串
-var cam_extra={"attr_new_name":"attr_new_name_value"}
+var cam_extra={"attr_new_name":"attr_new_name_value","SBBM":"SBBM","A":"A"}
 cam_extra = JSON.stringify(cam_extra);
 var settings = {
   "url": "http://127.0.0.1:8080/camera/add",
@@ -33,8 +33,8 @@ var settings = {
 	  cam_name: "设备名称",
 	  cam_desc: "设备描述",
 	  cam_addr: "设备详细地址",
-	  cam_loc_lon: "设备地点经度[必须]",
-	  cam_loc_lan: "设备地点维度[必须]",
+	  cam_loc_lon: "306148",
+	  cam_loc_lan: "500144",
 	  cam_sta: 0,//摄像头类型 
 	  cam_extra: cam_extra//用户自定义属性
   }

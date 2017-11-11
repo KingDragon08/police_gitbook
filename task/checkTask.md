@@ -9,6 +9,8 @@ params：
 * mobile: 手机号[必须]
 * token: toke[必须]
 * taskId: 任务Id
+* cameraLon: 摄像头经度
+* cameraLa: 摄像头纬度
 * taskStatus: 审核状态，3=>审核通过，4=>审核不通过
 * info: 审核不通过的原因，当审核通过时无效
 
@@ -23,7 +25,9 @@ var settings = {
     token:"6b71a6f40f6df25fcb1dbd1456eb1d5b",
     taskId:1,
     taskStatus:3,
-    info:'checkInfo'
+    info:'checkInfo',
+    cameraLon:'cameraLon',
+    cameraLa:'cameraLa'
   }
 }
 $.ajax(settings).done(function (response) {

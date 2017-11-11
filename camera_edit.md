@@ -9,7 +9,8 @@ params：
 params：
 
 * mobile: 手机号[必须]
-* token: toke[必须]
+* token: token[必须]
+* cam_id: cam_id[必须]
 * cam_no: 设备编号[必须]
 * cam_name: 设备名称
 * cam_desc: 设备描述
@@ -23,7 +24,7 @@ ajax：
 
 ```
 //注意：cam_extra必须是数组的json串
-var cam_extra={"attr_new_name":"attr_new_name_value"}
+var cam_extra={"attr_new_name":"attr_new_name_value","SBBM":"SBBM","A":"A"}
 cam_extra = JSON.stringify(cam_extra);
 var settings = {
   "url": "http://127.0.0.1:8080/camera/edit",
@@ -31,15 +32,15 @@ var settings = {
   "data":{
     mobile:"13810332931",//手机号码
     token:"6b71a6f40f6df25fcb1dbd1456eb1d5b",//token
-    cam_id:10737,//摄像头Id［必须］
-    cam_no: "设备编号[必须]",
-	cam_name: "设备名称",
-	cam_desc: "设备描述",
-	cam_addr: "设备详细地址",
-	cam_loc_lon: "设备地点经度[必须]",
-	cam_loc_lan: "设备地点维度[必须]",
-	cam_sta: 0,//摄像头类型 
-	cam_extra: cam_extra//用户自定义属性
+    cam_id:10742,//摄像头Id［必须］
+    cam_no: "cam_no",
+    cam_name: "cam_name",
+    cam_desc: "cam_desc",
+    cam_addr: "cam_addr",
+    cam_loc_lon: "500145",
+    cam_loc_lan: "306148",
+    cam_sta: 2,//摄像头类型
+    cam_extra: cam_extra//用户自定义属性
   }
 }
 $.ajax(settings).done(function (response) {
