@@ -42,6 +42,6 @@ $.ajax(settings).done(function (response) {
 
 备注：
 
-返回结果新增attr_show字段,0表示不旋踵,1表示选中
+返回结果新增attr_show字段,0表示不选中,1表示选中
 
 
