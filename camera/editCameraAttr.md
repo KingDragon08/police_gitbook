@@ -12,6 +12,7 @@ params：
 * attrNewName:属性新名字
 * attrNewDesc:属性新描述信息
 * attrNewComment:字段的新备注信息
+* attrShow:前台是否默认选中展示,0->不默认展示,1->默认展示,默认值1.
 
 ajax：
 
@@ -23,9 +24,10 @@ var settings = {
     mobile:"13810332931",
     token:"6b71a6f40f6df25fcb1dbd1456eb1d5b",
     attrId:13,
-    attrNewName:"attr_new_name",//字段的新名字
+    attrNewName:"attrNewName",//字段的新名字
     attrNewDesc:"attr_new_description",//字段的新描述信息
-    attrNewComment:"attrNewComment"//字段的新备注信息
+    attrNewComment:"attrNewComment",//字段的新备注信息
+    attrShow:1//前台是否默认选中展示
   }
 }
 $.ajax(settings).done(function (response) {
@@ -33,12 +35,11 @@ $.ajax(settings).done(function (response) {
 });
 ```
 
-
 返回值：
 
 正确：
 
-{"code":200,"data":{"status":"success","error":"success","rows":[{"Id":1,"attr_name":"cam_id","attr_desc":"摄像头ID"},{"Id":2,"attr_name":"cam_no","attr_desc":"摄像头编号"},{"Id":3,"attr_name":"cam_name","attr_desc":"摄像头名字"},{"Id":4,"attr_name":"cam_sta","attr_desc":"摄像头类别"},{"Id":5,"attr_name":"addtime","attr_desc":"摄像头添加时间"},{"Id":6,"attr_name":"uptime","attr_desc":"摄像头更新时间"},{"Id":7,"attr_name":"user_id","attr_desc":"摄像头采集人ID"},{"Id":8,"attr_name":"cam_loc_lan","attr_desc":"摄像头纬度"},{"Id":9,"attr_name":"cam_loc_lon","attr_desc":"摄像头经度"},{"Id":10,"attr_name":"cam_desc","attr_desc":"摄像头描述信息"},{"Id":11,"attr_name":"is_del","attr_desc":"摄像头是否删除"},{"Id":12,"attr_name":"cam_addr","attr_desc":"摄像头地址"}]}}
+{"code":200,"data":{"status":"success","error":"success"}}
 
 错误：
 

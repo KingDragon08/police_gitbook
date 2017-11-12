@@ -38,3 +38,9 @@ $.ajax(settings).done(function (response) {
 
 * {"code": 501, "data":{"status":"fail","error":err.message}}[系统错误]数据库查询出错
 * {"code": 500, "data":{"status":"fail","error":e.message}}[系统错误]未知错误
+
+
+备注：
+
+返回结果新增attr_show字段,0表示不旋踵,1表示选中
+

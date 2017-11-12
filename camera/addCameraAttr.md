@@ -10,6 +10,7 @@ params：
 * token: token
 * attr_name:属性名[仅英文]
 * attr_desc:属性描述信息
+* attr_show:前台是否默认选中展示,0->不默认展示,1->默认展示,默认值1.
 
 ajax：
 
@@ -22,7 +23,8 @@ var settings = {
     token:"6b71a6f40f6df25fcb1dbd1456eb1d5b",
     attr_name:"attrName",//字段名
     attr_desc:"attr_description",//字段描述信息
-    attr_comment:"attr_comment"//字段备注信息
+    attr_comment:"attr_comment",//字段备注信息
+    attr_show:1//前台是否默认选中展示
   }
 }
 $.ajax(settings).done(function (response) {
