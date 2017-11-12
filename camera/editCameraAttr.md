@@ -12,7 +12,9 @@ params：
 * attrNewName:属性新名字
 * attrNewDesc:属性新描述信息
 * attrNewComment:字段的新备注信息
-* attrShow:前台是否默认选中展示,0->不默认展示,1->默认展示,默认值1.
+* attr_show_1:tips是否默认选中展示,0->不选中,1－>选中,默认选中
+* attr_show_2:详细信息是否默认选中展示,0->不选中,1－>选中,默认选中
+* attr_show_3:列表属性是否默认选中展示,0->不选中,1－>选中,默认选中
 
 ajax：
 
@@ -27,7 +29,9 @@ var settings = {
     attrNewName:"attrNewName",//字段的新名字
     attrNewDesc:"attr_new_description",//字段的新描述信息
     attrNewComment:"attrNewComment",//字段的新备注信息
-    attrShow:1//前台是否默认选中展示
+    attr_show_1:1,//tips是否默认选中展示
+    attr_show_2:1,//详细信息是否默认选中展示
+    attr_show_3:1,//列表属性是否默认选中展示
   }
 }
 $.ajax(settings).done(function (response) {
