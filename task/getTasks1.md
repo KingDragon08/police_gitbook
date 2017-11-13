@@ -33,7 +33,7 @@ $.ajax(settings).done(function (response) {
 
 正确：
 
-{"code":200,"data":{"status":"success","data":[{"Id":4,"cameraName":"cameraName","cameraLocation":"cameraLocation","taskDescription":"taskDescription","userId":1,"taskNO":"1509266954334","taskStatus":0,"cameraId":1,"rejectInfo":null},{"Id":3,"cameraName":"cameraName","cameraLocation":"cameraLocation","taskDescription":"taskDescription","userId":1,"taskNO":"1509264493188","taskStatus":0,"cameraId":3,"rejectInfo":null},{"Id":2,"cameraName":"cameraName","cameraLocation":"cameraLocation","taskDescription":"taskDescription","userId":1,"taskNO":"1509080264537","taskStatus":1,"cameraId":2,"rejectInfo":null}]}}
+{"code":200,"data":{"status":"success","data":[{"Id":4,"cameraName":"cameraName","cameraLocation":"cameraLocation","taskDescription":"taskDescription","userId":1,"taskNO":"1509266954334","taskStatus":0,"cameraId":1,"rejectInfo":null},{"Id":3,"cameraName":"cameraName","cameraLocation":"cameraLocation","taskDescription":"taskDescription","userId":1,"taskNO":"1509264493188","taskStatus":0,"cameraId":3,"rejectInfo":null},{"Id":2,"cameraName":"cameraName","cameraLocation":"cameraLocation","taskDescription":"taskDescription","userId":1,"taskNO":"1509080264537","taskStatus":1,"cameraId":2,"rejectInfo":null}]},"total":100}
 
 * Id:任务的Id
 * cameraName:摄像头名字
@@ -50,6 +50,8 @@ $.ajax(settings).done(function (response) {
   * 2:审核中
   * 3:已完成
   * 4:审核不通过
+
+*新增total:任务总量
 
 
 错误：
