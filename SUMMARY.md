@@ -103,5 +103,5 @@
   * [获取一级部门](department/list1.md)
   * [获取二级部门](department/list2.md)
   * [更新一级部门名字](department/edit1.md)
-  * [更新二级部门名字](department/edit1.md)
+  * [更新二级部门名字](department/edit2.md)
   * [更新用户所属部门](department/updateUserDepartment.md)
