@@ -12,6 +12,7 @@ params：
 * NO=&gt;警员编号
 * mobile=&gt;手机号码
 * company=&gt;所属单位
+* role=&gt;用户角色ID
 
 返回值：
 

@@ -24,3 +24,7 @@ params：
 * {"code": 404, "data":{"status":"fail","error":"camera not exist"}}[参数错误]设备不存在
 * {"code": 301, "data":{"status":"fail","error":"user not login"}}[权限问题]用户未登录
 * {"code": 500, "data":{"status":"fail","error":e.message}}[系统错误]未知错误
+
+新增：
+
+* 真的是删数据库了，数据没有办法恢复了，慎用！

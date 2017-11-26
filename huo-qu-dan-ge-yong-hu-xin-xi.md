@@ -22,5 +22,7 @@ params：
 * {"code":300,"data":{"status":"fail","error":"moblie not match password"}}密码和手机号不匹配
 * {"code": 300, "data":{"status":"fail","error":"params error"}}没有Id参数
 
+新增：
 
+* 返回值中新增role_name字段
 
