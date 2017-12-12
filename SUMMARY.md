@@ -113,3 +113,7 @@
   * [更新用户所属部门](department/updateUserDepartment.md)
   * [删除一级部门](department/delete1.md)
   * [删除二级部门](department/delete2.md)
+* [图层](layer.md)
+  * [添加图层](layer/addlayer.md)
+  * [删除图层](layer/dellayer.md)
+  
