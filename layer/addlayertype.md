@@ -1,6 +1,6 @@
-name：添加图层
+name：添加图层类型
 
-url：/layer/add
+url：/layer/addlayertype
 
 method：post
 
@@ -8,9 +8,7 @@ params：
 
 * mobile: 手机号[必须]
 * token: toke[必须]
-* layerName: 图层名称[必须]
-* layerTypeId: 图层类型id[必须]
-* imgPath: 图层图像
+* typeName: 图层类型名称[必须]
 
 ajax：
 
@@ -19,7 +17,7 @@ ajax：
 
 正确：
 
-* {"code":200,"data":{"status":"success","error":"success","layerId":2}}
+* ret = {"code": 200, "data": {"status": "success", "error": "success", "layerTypeId": 1}};
 
 错误：
 

@@ -1,16 +1,15 @@
-name：添加图层
+name：获取图层类型列表
 
-url：/layer/add
+url：/layer/layertypelist
 
 method：post
 
 params：
 
 * mobile: 手机号[必须]
-* token: toke[必须]
-* layerName: 图层名称[必须]
-* layerTypeId: 图层类型id[必须]
-* imgPath: 图层图像
+* token: token[必须]
+* page: 页码[默认为1，-1全部]
+* pageSize: 每页大小
 
 ajax：
 
@@ -19,7 +18,7 @@ ajax：
 
 正确：
 
-* {"code":200,"data":{"status":"success","error":"success","layerId":2}}
+* ret = {"code": 200, "data": {"status": "success", "error": "success"，"rows": rows, "total": total, "page": page, "pageSize": pageSize}};
 
 错误：
 

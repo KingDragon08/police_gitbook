@@ -126,6 +126,10 @@
   * [删除图层数据](layer/dellayerdata.md)
   * [编辑图层数据](layer/editlayerdata.md)
   * [根据图层id获取图层数据](layer/layerdatalistbyid.md)
+  * [添加图层类型](layer/addlayertype.md)
+  * [删除图层类型](layer/dellayertype.md)
+  * [编辑图层类型](layer/editlayertype.md)
+  * [获取图层类型列表](layer/layertypelist.md)
 
 
 
