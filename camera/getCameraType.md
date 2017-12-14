@@ -31,7 +31,7 @@ $.ajax(settings).done(function (response) {
 
 正确：
 
-{"code":200,"data":{"status":"success","error":"success"}}
+{"code":200,"data":{"status":"success","error":"success","rows":[{"id":1,"name":"球机","url":""},{"id":2,"name":"枪机","url":""},{"id":3,"name":"高清云台","url":""},{"id":4,"name":"固定枪机","url":""},{"id":5,"name":"云台","url":""},{"id":6,"name":"高清固定","url":""},{"id":7,"name":"固定","url":""},{"id":8,"name":"标清球机","url":""},{"id":9,"name":"标清云台枪机","url":""}]}}
 
 错误：
 
