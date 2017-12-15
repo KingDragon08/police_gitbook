@@ -22,6 +22,8 @@
   * [编辑app用户](/user/editMobileUser.md)
   * [pc用户获取部门](/user/getDepartmentPC.md)
   * [更新用户所属部门](department/updateUserDepartment.md)
+  * [获取当前在线人数](/user/getOnlineCount.md)
+  * [强制用户下线](/user/forceLogout.md)
 * [Camera](camera.md)
   * [添加摄像头［更新］](camera_add.md)
   * [删除摄像头](camera_del.md)

@@ -14,7 +14,7 @@ params：
 正确：
 
 * uId:用户Id
-* id:二级部门Id
+* Id:二级部门Id
 * p_id:一级部门Id
 
 
