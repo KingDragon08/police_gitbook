@@ -13,6 +13,24 @@ params：
 
 > 删除图层数据会真实删除图层数据，谨慎操作
 
+ajax:
+
+```
+var settings = {
+  "url": "http://127.0.0.1:8080/layer/dellayerdata",
+  "method": "POST",
+  "data":{
+    mobile:"13810332931",
+    token:"6b71a6f40f6df25fcb1dbd1456eb1d5b",
+    layerId:13,//图层id
+    layerDataId:13,//图层数据id
+  }
+}
+$.ajax(settings).done(function (response) {
+  console.log(JSON.stringify(response));
+});
+```
+
 返回值：
 
 正确：

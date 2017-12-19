@@ -14,6 +14,23 @@ params：
 
 ajax：
 
+```
+var settings = {
+  "url": "http://127.0.0.1:8080/layer/add",
+  "method": "POST",
+  "data":{
+    mobile:"13810332931",
+    token:"6b71a6f40f6df25fcb1dbd1456eb1d5b",
+    layerTypeId:13,//图层类型id
+    layerName:"layerName",//图层新名字
+    imgPath:"imgPath",//图层图片路径
+  }
+}
+$.ajax(settings).done(function (response) {
+  console.log(JSON.stringify(response));
+});
+```
+
 
 返回值：
 

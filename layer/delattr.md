@@ -14,6 +14,21 @@ params：
 
 返回值：
 
+```
+var settings = {
+  "url": "http://127.0.0.1:8080/layer/delattr",
+  "method": "POST",
+  "data":{
+    mobile:"13810332931",
+    token:"6b71a6f40f6df25fcb1dbd1456eb1d5b",
+    extId:13,//图层自定义属性id
+  }
+}
+$.ajax(settings).done(function (response) {
+  console.log(JSON.stringify(response));
+});
+```
+
 正确：
 
 * {"code":200,"data":{"status":"success","error":"success"}}

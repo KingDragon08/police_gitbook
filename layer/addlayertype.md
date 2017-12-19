@@ -12,6 +12,20 @@ params：
 
 ajax：
 
+```
+var settings = {
+  "url": "http://127.0.0.1:8080/layer/addlayertype",
+  "method": "POST",
+  "data":{
+    mobile:"13810332931",
+    token:"6b71a6f40f6df25fcb1dbd1456eb1d5b",
+    typeName:"typeName",//图层类型名称
+  }
+}
+$.ajax(settings).done(function (response) {
+  console.log(JSON.stringify(response));
+});
+```
 
 返回值：
 

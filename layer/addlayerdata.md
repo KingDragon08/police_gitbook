@@ -15,6 +15,23 @@ params：
 
 ajax：
 
+```
+var settings = {
+  "url": "http://127.0.0.1:8080/layer/addlayerdata",
+  "method": "POST",
+  "data":{
+    mobile:"13810332931",
+    token:"6b71a6f40f6df25fcb1dbd1456eb1d5b",
+    layerId:13,//图层类型id
+    locLan:"locLan",//图层数据点维度
+    locLon:"locLon",//图层数据点经度
+    extData:"extData",//图层数据其他属性值
+  }
+}
+$.ajax(settings).done(function (response) {
+  console.log(JSON.stringify(response));
+});
+```
 
 返回值：
 

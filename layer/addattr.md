@@ -10,10 +10,26 @@ params：
 * token: toke[必须]
 * layerId: 图层id[必须]
 * extName: 属性名称[必须]
-* extName: 属性名称[必须]
 * extDesc: 属性描述[必须]
 
 ajax：
+
+```
+var settings = {
+  "url": "http://127.0.0.1:8080/layer/addattr",
+  "method": "POST",
+  "data":{
+    mobile:"13810332931",
+    token:"6b71a6f40f6df25fcb1dbd1456eb1d5b",
+    layerId:13,//图层id
+    extName:"extName",//新属性名称
+    extDesc:"extDesc",//新属性描述
+  }
+}
+$.ajax(settings).done(function (response) {
+  console.log(JSON.stringify(response));
+});
+```
 
 
 返回值：

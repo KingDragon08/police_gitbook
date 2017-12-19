@@ -11,6 +11,24 @@ params：
 * layerTypeId: 图层类型id[必须]
 * layerTypeName: 图层类型名称[必须]
 
+ajax:
+
+```
+var settings = {
+  "url": "http://127.0.0.1:8080/layer/editlayertype",
+  "method": "POST",
+  "data":{
+    mobile:"13810332931",
+    token:"6b71a6f40f6df25fcb1dbd1456eb1d5b",
+    layerTypeId:13,//图层类型id
+    layerTypeName:"layerTypeName",//图层类型名称
+  }
+}
+$.ajax(settings).done(function (response) {
+  console.log(JSON.stringify(response));
+});
+```
+
 返回值：
 
 正确：
