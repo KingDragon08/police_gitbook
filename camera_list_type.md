@@ -1,6 +1,6 @@
 name：根据类型获取摄像头列表
 
-url：/camera/pclistbysta
+url：/camera/pclistbyattr
 
 method：post
 
@@ -8,7 +8,7 @@ params：
 
 * mobile: 手机号[必须]
 * token: token[必须]
-* attrName: cam_sta[必须，固定]
+* attrName: cam_category[必须，固定]
 * attrValue: 字段取值[必须]
 * page: 页数[默认为-1：获取全部设备]
 * pageSize: 每页数量[默认20]
