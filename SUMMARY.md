@@ -53,6 +53,7 @@
   * [编辑摄像头类别](camera/editCameraType.md)
   * [增加摄像头类别](camera/addCameraType.md)
   * [删除摄像头类别](camera/delCameraType.md)
+  * [坐标转换](camera/transformPoint.md)
 * [InterestPoint](interestpoint.md)
   * [添加兴趣点](interestpoint/tian-jia-xing-qu-dian.md)
   * [删除兴趣点](interestpoint/shan-chu-xing-qu-dian.md)
