@@ -16,4 +16,5 @@
     * [删除角色操作](role\roleaction_del.md)
     * [编辑角色操作](role\roleaction_edit.md)
     * [获取角色操作列表](role\roleaction_list.md)
+    * [获取权限类型列表](role/getactiontypes.md)
     
