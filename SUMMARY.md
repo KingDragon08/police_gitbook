@@ -111,6 +111,7 @@
   * [编辑角色操作-弃用](role/roleaction_edit.md)
   * [获取角色操作列表-权限用](role/roleaction_list.md)
   * [获取权限类型列表-权限用](role/getactiontypes.md)
+  * [配置角色权限-新版](role/configpermissions.md)
 * [Department](department.md)
   * [添加一级部门](department/add1.md)
   * [添加二级部门](department/add2.md)
@@ -138,6 +139,7 @@
   * [删除图层类型](layer/dellayertype.md)
   * [编辑图层类型](layer/editlayertype.md)
   * [获取图层类型列表](layer/layertypelist.md)
+  * [按类型获取图层列表](layer/layerlistbytypeid.md)
 
 
 

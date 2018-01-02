@@ -33,7 +33,7 @@ $.ajax(settings).done(function (response) {
 
 正确：
 
-* ret = {"code": 200, "data": {"status": "success", "error": "success"，"rows": rows, "total": total, "page": page, "pageSize": pageSize}};
+{"code":200,"data":{"status":"success","error":"success","rows":[{"type_id":5,"type_name":"光纤","user_id":53,"addtime":"1514884972751","img_path":null},{"type_id":4,"type_name":"重点人员","user_id":53,"addtime":"1514884972751","img_path":null},{"type_id":3,"type_name":"管道","user_id":53,"addtime":"1514884972751","img_path":null},{"type_id":2,"type_name":"车辆","user_id":53,"addtime":"1514884972751","img_path":null},{"type_id":1,"type_name":"摄像头","user_id":53,"addtime":"1514884972751","img_path":"http://211.103.178.205:8081/upload/1513100508342.jpg"}],"total":5,"page":1,"pageSize":20}}
 
 错误：
 
