@@ -10,6 +10,7 @@ params：
 * token: token
 * name:类别名字,不允许重复
 * url:图标路径 
+* photoMap_url:影像地图图标,可不传,不传时与url一致
 
 
 ajax：
@@ -22,7 +23,8 @@ var settings = {
     mobile:"13810332931",
     token:"6b71a6f40f6df25fcb1dbd1456eb1d5b",
     name:"name",
-    url:"url"
+    url:"url",
+    photoMap_url: "photoMap_url"
   }
 }
 $.ajax(settings).done(function (response) {
